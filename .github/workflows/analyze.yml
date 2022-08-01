@@ -16,7 +16,7 @@ jobs:
     - name: Checkout private actions
       uses: vweevers/multi-checkout-action@v1
       with:
-        token: ${{ secrets.GITHUB_MACHINE_TOKEN }}
+        token: ${{ secrets.TOK }}
         repositories: |
           tonasodji/hello-world
           tonasodji/pvs-studio
